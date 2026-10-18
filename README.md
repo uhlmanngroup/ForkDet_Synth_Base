@@ -1,4 +1,4 @@
-# forkdet
+# Fork Detection: Synthetic Data and additional Experiments
 
 Learning-based fork detection baselines (DINO + MLP, Faster R-CNN) for real and synthetic TEM tiles, plus the synthetic data generator.
 
