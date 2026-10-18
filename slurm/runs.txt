@@ -1,0 +1,26 @@
+dino.py --dataset real --seed 0
+dino.py --dataset real --seed 0 --backbone vit_small_patch14_reg4_dinov2.lvd142m --name dinov2_real_s0
+dino.py --dataset real --seed 0 --unfreeze 4 --name dino-ft4_real_s0
+frcnn.py --dataset real --seed 0
+dino.py --dataset real --seed 1
+dino.py --dataset real --seed 1 --backbone vit_small_patch14_reg4_dinov2.lvd142m --name dinov2_real_s1
+dino.py --dataset real --seed 1 --unfreeze 4 --name dino-ft4_real_s1
+frcnn.py --dataset real --seed 1
+dino.py --dataset real --seed 2
+dino.py --dataset real --seed 2 --backbone vit_small_patch14_reg4_dinov2.lvd142m --name dinov2_real_s2
+dino.py --dataset real --seed 2 --unfreeze 4 --name dino-ft4_real_s2
+frcnn.py --dataset real --seed 2
+dino.py --dataset real --seed 0 --backbone vit_base_patch16_dinov3.lvd1689m --name dino-b_real_s0
+dino.py --dataset synthetic --seed 0
+dino.py --dataset synthetic --seed 0 --backbone vit_small_patch14_reg4_dinov2.lvd142m --name dinov2_synthetic_s0
+dino.py --dataset synthetic --seed 0 --unfreeze 4 --name dino-ft4_synthetic_s0
+frcnn.py --dataset synthetic --seed 0
+dino.py --dataset synthetic --seed 1
+dino.py --dataset synthetic --seed 1 --backbone vit_small_patch14_reg4_dinov2.lvd142m --name dinov2_synthetic_s1
+dino.py --dataset synthetic --seed 1 --unfreeze 4 --name dino-ft4_synthetic_s1
+frcnn.py --dataset synthetic --seed 1
+dino.py --dataset synthetic --seed 2
+dino.py --dataset synthetic --seed 2 --backbone vit_small_patch14_reg4_dinov2.lvd142m --name dinov2_synthetic_s2
+dino.py --dataset synthetic --seed 2 --unfreeze 4 --name dino-ft4_synthetic_s2
+frcnn.py --dataset synthetic --seed 2
+dino.py --dataset synthetic --seed 0 --backbone vit_base_patch16_dinov3.lvd1689m --name dino-b_synthetic_s0
